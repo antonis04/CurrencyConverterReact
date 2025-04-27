@@ -1,4 +1,4 @@
-/* body {
+body {
   font-family: Arial, sans-serif;
   display: flex;
   justify-content: center;
@@ -6,7 +6,6 @@
   height: 100vh;
   margin: 0;
   background-color: #f4f4f9;
-  background-image: url("/images/landscape.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -52,4 +51,4 @@
   margin-top: 15px;
   font-size: 18px;
   text-align: center;
-} */
+}
