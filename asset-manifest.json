@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/kantor-walut-react/static/css/main.31c08057.css",
+    "main.js": "/kantor-walut-react/static/js/main.05297da3.js",
+    "static/js/453.b745c1da.chunk.js": "/kantor-walut-react/static/js/453.b745c1da.chunk.js",
+    "static/media/landscape.png": "/kantor-walut-react/static/media/landscape.be3478460cd2e7870c7e.png",
+    "index.html": "/kantor-walut-react/index.html",
+    "main.31c08057.css.map": "/kantor-walut-react/static/css/main.31c08057.css.map",
+    "main.05297da3.js.map": "/kantor-walut-react/static/js/main.05297da3.js.map",
+    "453.b745c1da.chunk.js.map": "/kantor-walut-react/static/js/453.b745c1da.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31c08057.css",
+    "static/js/main.05297da3.js"
+  ]
+}
