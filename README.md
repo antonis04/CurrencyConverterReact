@@ -14,5 +14,5 @@ This application demonstrates the implementation of React components, hooks (use
 
 ## Live Demo
 
-[View the live application](https://antonis04.github.io/kantor-walut-react/)
+https://antonis04.github.io/kantor-walut-react
 
