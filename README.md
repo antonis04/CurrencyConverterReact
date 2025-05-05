@@ -16,3 +16,4 @@ This application demonstrates the implementation of React components, hooks (use
 
 https://antonis04.github.io/kantor-walut-react
 
+![alt text](image.png)
