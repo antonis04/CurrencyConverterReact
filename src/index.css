@@ -6,7 +6,7 @@ body {
   height: 100vh;
   margin: 0;
   background-color: #f4f4f9;
-  background-image: url('./landscape.png');
+  background-image: url("./landscape.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -28,13 +28,25 @@ body {
   color: #333;
 }
 
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
 .converter-container input,
+.converter-container select,
 .converter-container button {
   width: calc(100% - 20px);
   padding: 10px;
-  margin: 10px 0;
+  margin: 5px 0;
   border: 1px solid #ddd;
   border-radius: 5px;
+}
+
+.converter-container select {
+  background-color: white;
+  cursor: pointer;
 }
 
 .converter-container button {
@@ -52,4 +64,5 @@ body {
   margin-top: 15px;
   font-size: 18px;
   text-align: center;
+  font-weight: bold;
 }
