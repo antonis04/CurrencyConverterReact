@@ -10,17 +10,19 @@ import {
   Select,
   Button,
   Result,
-  ErrorMessage
+  ErrorMessage,
+  SourceNote
 } from "./styled";
-import { useRatesData } from "../hooks/useRatesData";
+import { useRatesData } from "../Rates/useRatesData";
 
 function CurrencyConverter() {
   const [amount, setAmount] = useState("");
   const [selectedCurrency, setSelectedCurrency] = useState("EUR");
   const [result, setResult] = useState("");
+  const [isCalculating, setIsCalculating] = useState(false); // New state for tracking calculation
   const ratesData = useRatesData();
 
-  const handleCalculate = () => {
+  const handleCalculate = async () => {
     const numAmount = parseFloat(amount);
 
     if (isNaN(numAmount) || numAmount <= 0) {
@@ -33,16 +35,20 @@ function CurrencyConverter() {
       return;
     }
 
+    // Start calculation and show loading screen
+    setIsCalculating(true);
+    
+    // Simulate delay to show loading state (can remove this in production)
+    await new Promise(resolve => setTimeout(resolve, 1000));
   
     const rate = ratesData.rates[selectedCurrency].value;
     const plnRate = ratesData.rates["PLN"] ? ratesData.rates["PLN"].value : 1;
     
-    
     const amountInUSD = numAmount / rate;
     const amountInPLN = amountInUSD * plnRate;
     
-    // Updated to show only the PLN amount
     setResult(`${amountInPLN.toFixed(2)} PLN`);
+    setIsCalculating(false); // End calculation and hide loading screen
   };
 
   return (
@@ -54,7 +60,13 @@ function CurrencyConverter() {
           Proszę czekać, trwa ładowanie kursów walut...
         </div>
       ) : ratesData.state === "error" ? (
-        <ErrorMessage>Nie udało się pobrać kursów walut. Spróbuj ponownie później.</ErrorMessage>
+        <ErrorMessage>
+          {ratesData.errorMessage || "Nie udało się pobrać kursów walut. Spróbuj ponownie później."}
+        </ErrorMessage>
+      ) : isCalculating ? (
+        <div style={{ textAlign: "center", fontSize: "18px", margin: "20px 0" }}>
+          Proszę czekać, trwa przeliczanie kwoty...
+        </div>
       ) : (
         <ConverterForm onSubmit={(e) => e.preventDefault()}>
           <InputGroup>
@@ -83,6 +95,9 @@ function CurrencyConverter() {
           <Result>{result}</Result>
         </ConverterForm>
       )}
+      <SourceNote>
+        Kursy walut pobierane są z serwisu currencyapi.com
+      </SourceNote>
     </ConverterContainer>
   );
 }
