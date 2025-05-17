@@ -145,3 +145,11 @@ export const SwitchButton = styled.button`
     color: #3a80d2;
   }
 `;
+
+export const SourceNote = styled.footer`
+  text-align: center;
+  font-size: 12px;
+  color: #777;
+  margin-top: 20px;
+  padding: 10px;
+`;
