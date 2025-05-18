@@ -1,19 +1,25 @@
-# Currency Exchange React Application
+# Currency Converter React App
 
-## Description
+## About
+A simple yet powerful currency converter built with React and styled-components.
 
-This is a modern currency exchange application built with React. It allows users to easily convert between different currencies with the following features:
+[Live Demo](https://kantor-walut-react.vercel.app/)
 
-- Convert between multiple currencies
-- Real-time exchange rates
-- Clean, responsive interface with a beautiful background image
-- Simple and intuitive user experience
-- Mobile-friendly design
+## Features
+- Real-time currency conversion
+- Up-to-date exchange rates via currencyapi.com
+- Responsive design
+- Error handling
 
-This application demonstrates the implementation of React components, hooks (useState, useEffect), API integration for currency rates, and proper state management for a seamless currency conversion experience.
+## Technologies
+- React
+- styled-components
+- API integration
 
-## Live Demo
+## Installation
+1. Clone the repository
+2. Install dependencies: `npm install`
+3. Start the development server: `npm start`
 
-https://antonis04.github.io/kantor-walut-react
-
-![alt text](image.png)
+## API
+This project uses the [currencyapi.com](https://currencyapi.com/) API for currency exchange rates.
