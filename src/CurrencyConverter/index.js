@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-import DateTime from "../DateTime/DateTime";
-import "../index.css";
+import DateTime from "../DateTime";
 import {
   ConverterContainer,
   Title,

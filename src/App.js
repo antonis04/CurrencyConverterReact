@@ -1,7 +1,14 @@
-import CurrencyConverter from "./CurrencyConverter/CurrencyConverter";
+import React from 'react';
+import CurrencyConverter from './CurrencyConverter';
+import { GlobalStyle } from './styles/GlobalStyle';
 
 function App() {
-  return <CurrencyConverter />;
+  return (
+    <>
+      <GlobalStyle />
+      <CurrencyConverter />
+    </>
+  );
 }
 
 export default App;
