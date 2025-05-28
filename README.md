@@ -3,7 +3,9 @@
 ## About
 A simple yet powerful currency converter built with React and styled-components.
 
-[Live Demo](https://kantor-walut-react)
+# About 
+You can view the live demo of the application here:
+ - [Demo on GitHub Pages](https://antonis04.github.io/kantor-walut-react/)
 
 ## Features
 - Real-time currency conversion
