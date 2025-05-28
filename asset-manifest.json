@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "/kantor-walut-react/static/js/main.3c1d8074.js",
+    "main.js": "/kantor-walut-react/static/js/main.a11d50ec.js",
     "static/js/453.b745c1da.chunk.js": "/kantor-walut-react/static/js/453.b745c1da.chunk.js",
     "index.html": "/kantor-walut-react/index.html",
-    "main.3c1d8074.js.map": "/kantor-walut-react/static/js/main.3c1d8074.js.map",
+    "main.a11d50ec.js.map": "/kantor-walut-react/static/js/main.a11d50ec.js.map",
     "453.b745c1da.chunk.js.map": "/kantor-walut-react/static/js/453.b745c1da.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.3c1d8074.js"
+    "static/js/main.a11d50ec.js"
   ]
 }
