@@ -12,11 +12,10 @@ export const GlobalStyle = createGlobalStyle`
     height: 100vh;
     margin: 0;
     background-color: #f4f4f9;
-    background-image: url("./landscape.png");
-    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-image: url("/landscape.png");
   }
   
   *, ::after, ::before {
