@@ -3,7 +3,7 @@
 ## About
 A simple yet powerful currency converter built with React and styled-components.
 
-[Live Demo](https://kantor-walut-react.vercel.app/)
+[Live Demo](https://kantor-walut-react)
 
 ## Features
 - Real-time currency conversion
