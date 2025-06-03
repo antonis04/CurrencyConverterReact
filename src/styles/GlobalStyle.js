@@ -2,9 +2,7 @@ import { createGlobalStyle } from "styled-components";
 import { normalize } from "styled-normalize";
 
 export const GlobalStyle = createGlobalStyle`
-  ${normalize}
-  
-  body {
+  ${normalize}    body {
     font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
@@ -15,7 +13,10 @@ export const GlobalStyle = createGlobalStyle`
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-image: url("/landscape.png");
+    background-image: url("${process.env.PUBLIC_URL}/landscape.png");
+    background-size: cover;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
   }
   
   *, ::after, ::before {
