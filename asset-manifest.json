@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "/kantor-walut-react/static/js/main.160d17cb.js",
-    "static/js/453.b745c1da.chunk.js": "/kantor-walut-react/static/js/453.b745c1da.chunk.js",
-    "index.html": "/kantor-walut-react/index.html",
-    "main.160d17cb.js.map": "/kantor-walut-react/static/js/main.160d17cb.js.map",
-    "453.b745c1da.chunk.js.map": "/kantor-walut-react/static/js/453.b745c1da.chunk.js.map"
+    "main.js": "/CurrencyConverterReact/static/js/main.f02c7976.js",
+    "static/js/453.3e161baf.chunk.js": "/CurrencyConverterReact/static/js/453.3e161baf.chunk.js",
+    "index.html": "/CurrencyConverterReact/index.html",
+    "main.f02c7976.js.map": "/CurrencyConverterReact/static/js/main.f02c7976.js.map",
+    "453.3e161baf.chunk.js.map": "/CurrencyConverterReact/static/js/453.3e161baf.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.160d17cb.js"
+    "static/js/main.f02c7976.js"
   ]
 }
