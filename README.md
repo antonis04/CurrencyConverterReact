@@ -10,7 +10,7 @@ A simple yet powerful currency converter built with React and styled-components.
 
 You can view the live demo of the application here:
 
-- [Demo on GitHub Pages](https://antonis04.github.io/kantor-walut-react/)
+- [Demo on GitHub Pages](https://antonis04.github.io/CurrencyConverterReact/)
 
 ## Features
 
