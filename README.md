@@ -1,6 +1,9 @@
+<header>
+
 # Currency Converter React App
 
 _A simple and responsive currency converter app built with React. This app allows users to quickly convert between multiple currencies using real-time exchange rates. It features a clean UI, intuitive design, and seamless performance_
+</header>
 
 ## About
 
